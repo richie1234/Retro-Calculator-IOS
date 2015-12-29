@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1365277F1C32607B003F0D3F /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1365277E1C32607B003F0D3F /* btn.wav */; };
 		136747851C3152DD0052C28A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136747841C3152DD0052C28A /* AppDelegate.swift */; };
 		136747871C3152DD0052C28A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136747861C3152DD0052C28A /* ViewController.swift */; };
 		1367478A1C3152DD0052C28A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136747881C3152DD0052C28A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1365277E1C32607B003F0D3F /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		136747811C3152DD0052C28A /* Retro Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136747841C3152DD0052C28A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		136747861C3152DD0052C28A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				136747841C3152DD0052C28A /* AppDelegate.swift */,
 				136747861C3152DD0052C28A /* ViewController.swift */,
 				13C521751C320616004964BE /* Minecraft.ttf */,
+				1365277E1C32607B003F0D3F /* btn.wav */,
 				136747881C3152DD0052C28A /* Main.storyboard */,
 				1367478B1C3152DD0052C28A /* Assets.xcassets */,
 				1367478D1C3152DD0052C28A /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1365277F1C32607B003F0D3F /* btn.wav in Resources */,
 				1367478F1C3152DD0052C28A /* LaunchScreen.storyboard in Resources */,
 				1367478C1C3152DD0052C28A /* Assets.xcassets in Resources */,
 				13C521761C320616004964BE /* Minecraft.ttf in Resources */,
