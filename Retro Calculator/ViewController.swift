@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Retro Calculator
+//  Retro Calculator - IOS Storyboard
 //
 //  Created by Richie on 28/12/2015.
 //  Copyright © 2015 Richie. All rights reserved.
