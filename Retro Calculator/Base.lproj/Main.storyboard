@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Minecraft.ttf">
+            <string>Minecraft</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -24,8 +29,11 @@
                                     <constraint firstAttribute="width" secondItem="HBB-JF-rSl" secondAttribute="height" multiplier="1:1" id="IOb-9U-nM4"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="Z92-3A-UUq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="Z92-3A-UUq">
                                 <rect key="frame" x="0.0" y="543" width="600" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="Nr5-Iz-hQ6"/>
+                                </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gRm-mR-1ws">
                                 <rect key="frame" x="173" y="86" width="240" height="455"/>
@@ -216,17 +224,32 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdO-9Y-fh3">
+                                <rect key="frame" x="253" y="107" width="150" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="UBM-vH-LYd"/>
+                                    <constraint firstAttribute="height" constant="40" id="tVP-Hp-y5Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LW1-F5-7bp" firstAttribute="centerY" secondItem="gRm-mR-1ws" secondAttribute="centerY" constant="37" id="1RJ-dA-j4z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z92-3A-UUq" secondAttribute="bottom" id="End-s6-rbr"/>
                             <constraint firstItem="gRm-mR-1ws" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JMb-ZB-Uzb"/>
                             <constraint firstItem="gRm-mR-1ws" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kqu-BI-K1v"/>
+                            <constraint firstItem="gRm-mR-1ws" firstAttribute="trailing" secondItem="PdO-9Y-fh3" secondAttribute="trailing" constant="15" id="OaV-ul-g1d"/>
                             <constraint firstItem="LW1-F5-7bp" firstAttribute="centerX" secondItem="gRm-mR-1ws" secondAttribute="centerX" id="PRt-1V-X1H"/>
+                            <constraint firstItem="Z92-3A-UUq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UmI-09-2gV"/>
                             <constraint firstItem="HBB-JF-rSl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vvj-Oe-l1H"/>
+                            <constraint firstAttribute="trailing" secondItem="Z92-3A-UUq" secondAttribute="trailing" id="ZMk-TI-xjp"/>
                             <constraint firstItem="HBB-JF-rSl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="e1J-hx-W9p"/>
                             <constraint firstAttribute="trailing" secondItem="HBB-JF-rSl" secondAttribute="trailing" id="e3B-9j-es0"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HBB-JF-rSl" secondAttribute="bottom" id="iMp-8e-W1h"/>
+                            <constraint firstItem="PdO-9Y-fh3" firstAttribute="top" secondItem="gRm-mR-1ws" secondAttribute="top" constant="20" id="jYT-XK-AKW"/>
                         </constraints>
                     </view>
                 </viewController>
